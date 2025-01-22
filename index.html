@@ -3,15 +3,105 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>My Blog - Precious Tola</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header>
       <h1>My Blog</h1>
     </header>
     <main>
-      <div>
-        <h2>Understanding leads to being Outstanding</h2>
+      <article class="blog-post">
+        <h3>Build a Career Not a GET RICH QUICK Approach</h3>
+        <p>
+          Today, I had the chance to apply for an internship at the British High
+          Commission office in Nigeria. It came with an attractive salary and
+          benefits, but I chose to let it pass. Reading through the job
+          requirements, I realized I was overqualified—holding a master's degree
+          for a role that demanded far less. Yet, what struck me wasn't the
+          opportunity itself, but the clarity it brought about my goals. I've
+          resolved to build a career in software development, one rooted in
+          purpose and long-term impact. As I reflected, the words of Oyedepo
+          echoed in my mind: <br />
+          <strong>
+            "You will not find a story of outstanding success without a story of
+            sacrifice behind it."
+          </strong>
+          <br />
+          Building a career isn't about chasing the highest paycheck; it's about
+          investing in skills, embracing growth, and staying true to a vision
+          that transcends immediate gains. Then, the paychecks will inevitably
+          roll in, as money flows in the direction of value.
+        </p>
+        <div class="interaction-bar">
+          <button class="interaction-btn like-btn">❤️ Like</button>
+          <button class="interaction-btn comment-btn">💭 Comment</button>
+          <button class="interaction-btn share-btn">📤 Share</button>
+          <div class="share-popup">
+            Share "Build a Career Not a GET RICH QUICK Approach" by Precious
+            Tola
+          </div>
+        </div>
+        <div class="comment-section">
+          <textarea
+            class="comment-input"
+            placeholder="Add a comment..."
+          ></textarea>
+          <button class="interaction-btn">Post Comment</button>
+        </div>
+      </article>
+
+      <!-- Repeat the same structure for other blog posts -->
+      <!-- I'll show just one more as example, you can apply to others -->
+      <article class="blog-post">
+        <h3>Avid learner or Active learner</h3>
+        <p>
+          Some might ask, "Are you an avid learner or an active learner?" For
+          me, it's it's both. Being an avid learner means you crave knowledge;
+          being an active learner means you make that knowledge count. I've
+          learned that
+          <strong> to truly stand out, you need both. </strong> Passion for
+          learning keeps the journey exciting, while applying what you've
+          learned transforms that passion into purpose. I find joy in
+          discovering new ideas and concepts as an avid learner, but the real
+          magic happens when I become an active learner, turning knowledge into
+          meaningful action. It's this balance that fuels my progress and keeps
+          me striving for excellence.
+        </p>
+        <div class="interaction-bar">
+          <button class="interaction-btn like-btn">❤️ Like</button>
+          <button class="interaction-btn comment-btn">💭 Comment</button>
+          <button class="interaction-btn share-btn">📤 Share</button>
+          <div class="share-popup">
+            Share "Avid learner or Active learner" by Precious Tola
+          </div>
+        </div>
+        <div class="comment-section">
+          <textarea
+            class="comment-input"
+            placeholder="Add a comment..."
+          ></textarea>
+          <button class="interaction-btn">Post Comment</button>
+        </div>
+      </article>
+      <article class="blog-post">
+        <h3>SILENT NIGHTS</h3>
+        <p>
+          The journey to success is paved with silent nights—those moments of
+          solitude when the world feels still, yet your heart beats loud with
+          ambition. These nights can be cold, dark, or even lonely, but they
+          hold a quiet power. It’s in these moments of stillness that dreams
+          take root, grow, and begin to bloom. Tonight feels like one of those
+          nights, and I find myself reflecting more deeply on the timeless
+          Christmas hymn,<em>Silent Night</em>. It’s more than a song; it’s a
+          reminder that some of the greatest events in history were preceded by
+          silent nights of preparation, contemplation, and resolve. I believe
+          every remarkable achievement has its share of silent nights, quietly
+          shaping the moments that change everything.
+        </p>
+      </article>
+      <article class="blog-post">
+        <h3>Understanding leads to being Outstanding</h3>
         <p>
           Many strive to be outstanding, but few recognize that the journey
           begins with understanding. When you take the time to listen, to learn,
@@ -20,47 +110,47 @@
           don’t chase recognition—they earn it through their unwavering
           commitment to understanding and growth.
         </p>
-      </div>
-      <div>
-        <h2>Avid learner or Active learner</h2>
-        <p>
-          Some might ask, “Are you an avid learner or an active learner?” For
-          me, it’s it’s both. Being an avid learner means you crave knowledge;
-          being an active learner means you make that knowledge count. I’ve
-          learned that
-          <strong> to truly stand out, you need both. </strong> Passion for
-          learning keeps the journey exciting, while applying what you’ve
-          learned transforms that passion into purpose. I find joy in
-          discovering new ideas and concepts as an avid learner, but the real
-          magic happens when I become an active learner, turning knowledge into
-          meaningful action. It’s this balance that fuels my progress and keeps
-          me striving for excellence.
-        </p>
-      </div>
-      <div>
-        <h2>Build a Career Not a GET RICH QUICK Approach</h2>
-        <p>
-          Today, I had the chance to apply for an internship at the British High
-          Commission office in Nigeria. It came with an attractive salary and
-          benefits, but I chose to let it pass. Reading through the job
-          requirements, I realized I was overqualified—holding a master’s degree
-          for a role that demanded far less. Yet, what struck me wasn’t the
-          opportunity itself, but the clarity it brought about my goals. I’ve
-          resolved to build a career in software development, one rooted in
-          purpose and long-term impact. As I reflected, the words of Oyedepo
-          echoed in my mind: <br />
-          <strong>
-            “You will not find a story of outstanding success without a story of
-            sacrifice behind it.”
-          </strong>
-          <br />
-          Building a career isn’t about chasing the highest paycheck; it’s about
-          investing in skills, embracing growth, and staying true to a vision
-          that transcends immediate gains. Then, the paychecks will inevitably
-          roll in, as money flows in the direction of value.
-        </p>
-      </div>
+      </article>
     </main>
-    <script src="script.js"></script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        // Like functionality
+        document.querySelectorAll(".like-btn").forEach((btn) => {
+          btn.addEventListener("click", function () {
+            this.classList.toggle("liked");
+          });
+        });
+
+        // Comment functionality
+        document.querySelectorAll(".comment-btn").forEach((btn) => {
+          btn.addEventListener("click", function () {
+            const commentSection = this.parentElement.nextElementSibling;
+            commentSection.classList.toggle("active");
+          });
+        });
+
+        // Share functionality
+        document.querySelectorAll(".share-btn").forEach((btn) => {
+          btn.addEventListener("click", function () {
+            const sharePopup = this.nextElementSibling;
+            sharePopup.classList.toggle("active");
+
+            // Close popup when clicking outside
+            setTimeout(() => {
+              document.addEventListener("click", function closePopup(e) {
+                if (
+                  !e.target.closest(".share-btn") &&
+                  !e.target.closest(".share-popup")
+                ) {
+                  sharePopup.classList.remove("active");
+                  document.removeEventListener("click", closePopup);
+                }
+              });
+            }, 0);
+          });
+        });
+      });
+    </script>
   </body>
 </html>

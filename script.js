@@ -142,23 +142,33 @@ console.log(typeof undefinedVariable); */
 // const greet = () => "hello, world";
 
 // TASK 1
-const number = 31;
-if (number > 0) {
-  console.log(`${number} is positive`);
-} else if (number < 0) {
-  console.log(`${number} is negative`);
-} else {
-  console.log(`${number} is zero`);
-}
+// const number = 31;
+// if (number > 0) {
+//   console.log(`${number} is positive`);
+// } else if (number < 0) {
+//   console.log(`${number} is negative`);
+// } else {
+//   console.log(`${number} is zero`);
+// }
 
-// TASK 2
-for (let i = 1; i <= 10; i++) {
-  console.log(i);
-}
+// // TASK 2
+// for (let i = 1; i <= 10; i++) {
+//   console.log(i);
+// }
 
-// TASK 3
-function sum(num1, num2) {
-  return num1 + num2;
-}
-const result = sum(2, 88);
-console.log(result);
+// // TASK 3
+// function sum(num1, num2) {
+//   return num1 + num2;
+// }
+// const result = sum(2, 88);
+// console.log(result);
+
+// // TASK 4
+// const sum1 = (num3, num4) => num3 + num4;
+// const result1 = sum(2, 88);
+// console.log(result1);
+
+const link = document.querySelector("a");
+
+console.log(link.getAttribute("href"));
+link.setAttribute("href", "");

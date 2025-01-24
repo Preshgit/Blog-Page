@@ -229,3 +229,13 @@ console.log(typeof undefinedVariable); */
 // });
 
 // TASK 3
+
+const list = document.querySelectorAll(".hover-item");
+list.forEach((item) => {
+  item.addEventListener("mouseover", () => {
+    item.style.backgroundColor = "lightblue";
+  });
+  item.addEventListener("mouseout", () => {
+    item.style.backgroundColor = "";
+  });
+});

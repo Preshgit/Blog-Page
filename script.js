@@ -168,7 +168,64 @@ console.log(typeof undefinedVariable); */
 // const result1 = sum(2, 88);
 // console.log(result1);
 
-const link = document.querySelector("a");
+// const link = document.querySelector("a");
+// document.querySelectorAll("p");
+// document.getElementById("");
+// document.getElementsByClassName("");
+// document.getElementsByTagName("");
 
-console.log(link.getAttribute("href"));
-link.setAttribute("href", "");
+// console.log(link.getAttribute("href"));
+// link.setAttribute("href", "");
+
+// const title = document.querySelector("header");
+
+// title.setAttribute("style", "color:green;");
+
+// title.style.color = "crimson";
+// title.style.fontSize = "80px";
+
+// console.log(title.style);
+// console.log(title.style.color);
+
+// const content = document.querySelector("p");
+
+// console.log(content.classList);
+
+// const paras = document.querySelectorAll("p");
+
+// paras.forEach((p) => {
+//   if (p.textContent.includes("error")) {
+//     p.classList.add("error");
+//   }
+//   if (p.innerText.includes("success")) {
+//     p.classList.add("success");
+//   }
+// });
+
+// var h2 = document.querySelector("#book-list h2");
+// h2.addEventListener;
+
+// var btns = document.querySelectorAll("#book-list.delete");
+
+// Array.from(btns).forEach(function (btn) {
+//   btn.addEventListener("click".funtion(e){
+
+//     const li = e.target.parentElement;
+
+//     li.parentNode.removeChild(li)
+//   });
+// });
+
+// TASK 1
+// const test = document.querySelector("#greeting");
+
+// console.log((test.textContent = "Hello, DOM!"));
+
+// TAST 2
+// const btn = document.getElementById("clickButton");
+
+// btn.addEventListener("click", () => {
+//   btn.textContent = "Clicked";
+// });
+
+// TASK 3
